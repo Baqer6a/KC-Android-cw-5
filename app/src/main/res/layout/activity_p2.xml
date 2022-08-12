@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".P2">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="118dp"
+        android:layout_marginEnd="143dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/T4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="246dp"
+        android:text="الاسم :"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/T5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="206dp"
+        android:text=" العمر :"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/T3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="285dp"
+        android:layout_marginEnd="12dp"
+        android:text="بيانات العميل :"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/T6"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="86dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="104dp"
+        android:fontFamily="sans-serif"
+        android:text="تم التسجيل بنجاح"
+        android:textColor="#4CF804"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="112dp"
+        android:fontFamily="casual"
+        android:text="AMB STORE"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/T7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/T6"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="100dp"
+        android:layout_toStartOf="@+id/T4"
+        android:text="CNAME" />
+
+    <TextView
+        android:id="@+id/T8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/T6"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="63dp"
+        android:layout_toStartOf="@+id/T5"
+        android:text="CAGE" />
+</RelativeLayout>
